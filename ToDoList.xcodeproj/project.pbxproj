@@ -12,6 +12,7 @@
 		CCBAE57C20B5C6E0009B7309 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCBAE57A20B5C6E0009B7309 /* LaunchScreen.storyboard */; };
 		CCBAE58720B5C6E0009B7309 /* ToDoListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBAE58620B5C6E0009B7309 /* ToDoListTests.swift */; };
 		CCBAE59220B5C6E0009B7309 /* ToDoListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBAE59120B5C6E0009B7309 /* ToDoListUITests.swift */; };
+		CCBAE5A020B5C871009B7309 /* TodosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBAE59F20B5C871009B7309 /* TodosViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		CCBAE58D20B5C6E0009B7309 /* ToDoListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDoListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCBAE59120B5C6E0009B7309 /* ToDoListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListUITests.swift; sourceTree = "<group>"; };
 		CCBAE59320B5C6E0009B7309 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCBAE59F20B5C871009B7309 /* TodosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodosViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 				CCBAE57820B5C6E0009B7309 /* Assets.xcassets */,
 				CCBAE57A20B5C6E0009B7309 /* LaunchScreen.storyboard */,
 				CCBAE57D20B5C6E0009B7309 /* Info.plist */,
+				CCBAE59F20B5C871009B7309 /* TodosViewController.swift */,
 			);
 			path = ToDoList;
 			sourceTree = "<group>";
@@ -249,6 +252,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCBAE5A020B5C871009B7309 /* TodosViewController.swift in Sources */,
 				CCBAE57220B5C6DF009B7309 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
